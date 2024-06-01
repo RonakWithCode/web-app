@@ -2,12 +2,12 @@ import React from 'react';
 
 function HeroSection() {
   return (
-    <div className="flex justify-center items-center w-full" >
-      <div className=" text-white p-12 text-center relative overflow-hidden max-w-2xl flex flex-col justify-center items-center"
-       style={{
+    <div className="flex justify-center items-center w-full"
+      style={{
         backgroundColor: 'black'
       }}>
-        <div  style={{
+      <div className=" text-white p-12 text-center relative overflow-hidden max-w-2xl flex flex-col justify-center items-center rounded-full">
+        <div style={{
           backgroundImage: 'radial-gradient(at center center, #A34133AD 0%, #FFFFFF00 80%)'
         }}>
           <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-4 relative z-10">
