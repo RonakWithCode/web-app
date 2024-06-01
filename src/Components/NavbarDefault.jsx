@@ -70,7 +70,7 @@ export function NavbarDefault() {
         </NavLink>
       </li>
 
-      {/* <li>{servicesMenu}</li> */}
+      <li>{servicesMenu}</li>
 
       <li>
         <NavLink to="/portfolio"
