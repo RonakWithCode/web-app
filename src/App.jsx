@@ -6,7 +6,7 @@ import { NavbarDefault } from './Components/NavbarDefault';
 function App() {
   
   return (
-    <Router>
+    <Router >
     <div>
       <NavbarDefault />
       <Routes>
