@@ -70,7 +70,7 @@ export function NavbarDefault() {
         </NavLink>
       </li>
 
-      <li>{servicesMenu}</li>
+      {/* <li>{servicesMenu}</li> */}
 
       <li>
         <NavLink to="/portfolio"
@@ -106,7 +106,7 @@ export function NavbarDefault() {
   );
 
   return (
-    <Navbar className="bg-black mx-auto px-4 py-2 lg:px-8 lg:py-4">
+    <Navbar className="bg-black  border-black mx-auto px-4 py-2 lg:px-8 lg:py-4">
       <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
         <Typography as={NavLink} to="/" className="mr-4 cursor-pointer py-1.5 font-bold text-xl  hover:text-red-500">
           RonoSoft
