@@ -1,9 +1,10 @@
 import React from 'react'
+import HeroSection from '../Components/HeroSection'
 
 const Home = ()=> {
   return (
     <>
-      <h1>Vite + React</h1>
+      <HeroSection/>
     </>
   )
 }
