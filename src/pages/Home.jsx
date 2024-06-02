@@ -5,11 +5,12 @@ import { WeAre } from '../Components/WeAre'
 
 const Home = () => {
   return (
-    <div>
-      <HeroSection/>
-      <WeAre/>
-      <WeDo/>
-    </div>
+    <div className="relative">
+      <HeroSection />
+      <WeAre />
+      <ActionSection />
+      <WeDo />
+      </div>
   );
 };
 
