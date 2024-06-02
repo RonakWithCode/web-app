@@ -8,6 +8,9 @@ export default {
     extend: {
       backgroundClip: {
         'text': 'text'
+      },
+      colors: {
+        'custom-red': '#f05742'
       }
     },
   },
