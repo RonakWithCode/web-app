@@ -27,20 +27,20 @@ export function NavbarDefault() {
   const servicesMenu = (
     <Menu >
       <MenuHandler>
-        <li className="flex text-white hover:text-red-500 hover:text hover:cursor-pointer -red-500 items-center gap-x-2 p-1 font-medium" >
+        <li className="flex text-white hover:text-custom-red hover:text hover:cursor-pointer -custom-red items-center gap-x-2 p-1 font-medium" >
           Services 
           <ChevronDownIcon className="ml-3 h-5 w-5" />
         </li>
       </MenuHandler>
       <MenuList className="bg-black p-2">
         <MenuItem>
-          <NavLink to="/services/web-dev" className="text-white hover:text-red-500">Web Development</NavLink>
+          <NavLink to="/services/web-dev" className="text-white hover:text-custom-red">Web Development</NavLink>
         </MenuItem>
         <MenuItem>
-          <NavLink to="/services/marketing" className="text-white hover:text-red-500">Marketing</NavLink>
+          <NavLink to="/services/marketing" className="text-white hover:text-custom-red">Marketing</NavLink>
         </MenuItem>
         <MenuItem>
-          <NavLink to="/services/seo" className="text-white hover:text-red-500">SEO Services</NavLink>
+          <NavLink to="/services/seo" className="text-white hover:text-custom-red">SEO Services</NavLink>
         </MenuItem>
       </MenuList>
     </Menu>
@@ -52,8 +52,8 @@ export function NavbarDefault() {
         <NavLink to="/"
           className={({ isActive }) => {
             return isActive
-              ? "flex  text-red-500 items-center gap-x-2 p-1 font-medium"
-              : "flex text-white hover:text-red-500 items-center gap-x-2 p-1 font-medium";
+              ? "flex  text-custom-red items-center gap-x-2 p-1 font-medium"
+              : "flex text-white hover:text-custom-red items-center gap-x-2 p-1 font-medium";
           }}>
           Home
         </NavLink>
@@ -63,8 +63,8 @@ export function NavbarDefault() {
         <NavLink to="/about"
           className={({ isActive }) => {
             return isActive
-              ? "flex  text-red-500 items-center gap-x-2 p-1 font-medium"
-              : "flex text-white hover:text-red-500 items-center gap-x-2 p-1 font-medium";
+              ? "flex  text-custom-red items-center gap-x-2 p-1 font-medium"
+              : "flex text-white hover:text-custom-red items-center gap-x-2 p-1 font-medium";
           }}>
           About Us
         </NavLink>
@@ -76,8 +76,8 @@ export function NavbarDefault() {
         <NavLink to="/portfolio"
           className={({ isActive }) => {
             return isActive
-              ? "flex  text-red-500 items-center gap-x-2 p-1 font-medium"
-              : "flex text-white hover:text-red-500 items-center gap-x-2 p-1 font-medium";
+              ? "flex  text-custom-red items-center gap-x-2 p-1 font-medium"
+              : "flex text-white hover:text-custom-red items-center gap-x-2 p-1 font-medium";
           }}>
           Portfolio
         </NavLink>
@@ -86,8 +86,8 @@ export function NavbarDefault() {
         <NavLink to="/blog"
           className={({ isActive }) => {
             return isActive
-              ? "flex  text-red-500 items-center gap-x-2 p-1 font-medium"
-              : "flex text-white hover:text-red-500 items-center gap-x-2 p-1 font-medium";
+              ? "flex  text-custom-red items-center gap-x-2 p-1 font-medium"
+              : "flex text-white hover:text-custom-red items-center gap-x-2 p-1 font-medium";
           }}>
           Blog
         </NavLink>
@@ -96,7 +96,7 @@ export function NavbarDefault() {
         <NavLink to="/contact"
           className={({ isActive }) => {
             return isActive
-              ? "flex  text-red-500 items-center gap-x-2 p-1 font-medium"
+              ? "flex  text-custom-red items-center gap-x-2 p-1 font-medium"
               : "flex text-white items-center gap-x-2 p-1 font-medium";
           }}>
           Contact Us
@@ -108,8 +108,8 @@ export function NavbarDefault() {
   return (
     <Navbar className="bg-black  border-black mx-auto px-4 py-2 lg:px-8 lg:py-4">
       <div className="container mx-auto flex items-center justify-between text-blue-gray-900">
-        <Typography as={NavLink} to="/" className="mr-4 cursor-pointer py-1.5 font-bold text-xl  hover:text-red-500">
-          RonoSoft
+        <Typography as={NavLink} to="/" className="mr-4 cursor-pointer py-1.5 font-bold text-xl  hover:text-custom-red">
+          <span className='text-custom-red'>Rono</span>Soft
         </Typography>
         <div className="hidden lg:block">{navList}</div>
         <div className="flex items-center gap-x-1">
@@ -120,11 +120,11 @@ export function NavbarDefault() {
             onClick={() => setOpenNav(!openNav)}
           >
             {openNav ? (
-              <svg xmlns="http://www.w3.org/2000/svg" fill="none" className="h-6 w-6  hover:text-red-500" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" className="h-6 w-6  hover:text-custom-red" viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
               </svg>
             ) : (
-              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 hover:text-red-500" fill="none" stroke="currentColor" strokeWidth={2}>
+              <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 hover:text-custom-red" fill="none" stroke="currentColor" strokeWidth={2}>
                 <path strokeLinecap="round" strokeLinejoin="round" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
             )}
