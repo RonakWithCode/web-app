@@ -2,7 +2,7 @@ import React from 'react';
 
 function HeroSection() {
   return (
-    <div className="flex justify-center items-center w-full"
+    <div className="flex justify-center items-center w-full mt-20"
       style={{
         backgroundColor: 'black'
       }}>

@@ -1,13 +1,13 @@
 import React from 'react'
 import HeroSection from '../Components/HeroSection'
-import ActionSection from '../Components/ActionSection'
+import { WeAre } from '../Components/WeAre'
 
 const Home = ()=> {
   return (
-    <>
+    <div>
       <HeroSection/>
-      <ActionSection/>
-    </>
+      <WeAre/>
+    </div>
   )
 }
 
