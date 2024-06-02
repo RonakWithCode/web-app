@@ -1,5 +1,6 @@
 import React from 'react'
 import HeroSection from '../Components/HeroSection'
+import WeDo from '../Components/WeDo'
 import { WeAre } from '../Components/WeAre'
 
 const Home = () => {
@@ -7,6 +8,7 @@ const Home = () => {
     <div>
       <HeroSection/>
       <WeAre/>
+      <WeDo/>
     </div>
   );
 };
