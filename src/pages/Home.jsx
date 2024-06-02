@@ -1,14 +1,21 @@
-import React from 'react'
-import HeroSection from '../Components/HeroSection'
-import { WeAre } from '../Components/WeAre'
+import React from 'react';
+import HeroSection from '../Components/HeroSection';
+import { WeAre } from '../Components/WeAre';
+import ActionSection from '../Components/ActionSection';
+import WeDo from '../Components/WeDo';
 
-const Home = ()=> {
+const Home = () => {
   return (
-    <div>
-      <HeroSection/>
-      <WeAre/>
-    </div>
-  )
-}
+    
+    <div className="relative">
+      <HeroSection />
+      <WeAre />
+      <ActionSection />
+      <WeDo />
+      
 
-export default Home
+    </div>
+  );
+};
+
+export default Home;
