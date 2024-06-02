@@ -11,7 +11,7 @@ function HeroSection() {
           backgroundImage: 'radial-gradient(at center center, #A34133AD 0%, #FFFFFF00 80%)'
         }}>
           <h1 className="text-2xl sm:text-xl md:text-5xl font-bold mb-4 relative z-10">
-            Elevating Your <span className="text-transparent bg-clip-text text-custom-red">Digital Presence</span> with Innovative Web Solutions
+            Elevating Your <span className=" bg-clip-text text-custom-red">Digital Presence</span> with Innovative Web Solutions
           </h1>
           <p className="mb-8 text-xl sm:text-1xl relative z-10">
             We are a team of passionate developers, designers, and strategists dedicated to transforming your vision into powerful websites that deliver results.
@@ -27,4 +27,3 @@ function HeroSection() {
 }
 
 export default HeroSection;
-
